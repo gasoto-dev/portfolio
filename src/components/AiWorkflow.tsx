@@ -7,7 +7,7 @@ const TOOLS = [
   },
   {
     name: "Fish Tank Tools",
-    description: "The workflow dashboard for the Ren + Forge system. Kanban board with drag-and-drop, structured handoff generator, live GitHub PR panel, and persistent notes scratchpad.",
+    description: "The workflow dashboard for the AI development system. Kanban board with drag-and-drop, structured handoff generator, live GitHub PR panel, and persistent notes scratchpad.",
     href: "https://github.com/gasoto-ai/fish-tank-tools",
     tags: ["Next.js", "TypeScript", "SQLite", "dnd-kit"],
   },
@@ -28,9 +28,9 @@ export default function AiWorkflow() {
           AI-assisted software development, for real
         </h2>
         <p className="text-blue-100 text-lg leading-relaxed max-w-3xl mb-4">
-          I run a two-agent AI development system from a Raspberry Pi 5 on my desk. Ren handles
-          planning, research, and orchestration. Forge handles implementation — scoped tasks, TDD,
-          PRs, code review. I set direction, review the output, and merge what ships.
+          I run a multi-agent AI development system from a Raspberry Pi 5 on my desk. A Planning Agent handles
+          research, task decomposition, and orchestration. A Builder Agent handles implementation — scoped tasks, TDD,
+          PRs, code review. A QA Agent gates every PR with hard pass/fail criteria. I set direction, review the output, and merge what ships.
         </p>
         <p className="text-blue-100 text-lg leading-relaxed max-w-3xl mb-12">
           This isn&apos;t a demo or a hackathon project. It&apos;s a production workflow with structured

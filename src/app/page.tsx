@@ -1,7 +1,6 @@
 import Nav from "@/components/Nav"
 import Hero from "@/components/Hero"
 import About from "@/components/About"
-import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import AiWorkflow from "@/components/AiWorkflow"
 import Projects from "@/components/Projects"
@@ -15,7 +14,6 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Skills />
         <Experience />
         <AiWorkflow />
         <Projects />

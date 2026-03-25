@@ -7,23 +7,13 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">
             I lead teams that ship things people actually use.
           </h2>
-          <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
-            <p>
-              Over the last 8+ years, I've built and shipped production software at companies
-              ranging from startups to Fortune 500s — GoDaddy, American Express, Leafly,
-              and now Unicity, where I lead a frontend engineering team.
-            </p>
-            <p>
-              My edge right now is AI. Not just using it, but building structured workflows
-              where AI agents plan, build, review, and learn from each other — running on a
-              Raspberry Pi on my desk, handling real software development tasks autonomously.
-              I'm applying that same thinking to how I lead my team at work.
-            </p>
-            <p>
-              I'm open to senior leadership roles and AI consulting engagements where I can
-              help teams move faster without sacrificing the craft.
-            </p>
-          </div>
+          <p className="text-lg text-slate-600 leading-relaxed">
+            Over the last 8+ years, I&apos;ve built and shipped production software at
+            companies ranging from startups to Fortune 500s — GoDaddy, American Express,
+            Leafly, and now Unicity, where I lead a frontend engineering team. I&apos;m
+            open to senior leadership roles and AI consulting engagements where I can help
+            teams move faster without sacrificing the craft.
+          </p>
         </div>
       </div>
     </section>

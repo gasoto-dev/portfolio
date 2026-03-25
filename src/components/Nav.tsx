@@ -1,7 +1,6 @@
 export default function Nav() {
   const links = [
     { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
     { href: "#experience", label: "Experience" },
     { href: "#ai-workflow", label: "AI Work" },
     { href: "#projects", label: "Projects" },

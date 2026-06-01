@@ -125,6 +125,28 @@ describe("Projects", () => {
     expect(screen.getByText("Fish Tank Tools")).toBeInTheDocument()
     expect(screen.getByText("The Crate")).toBeInTheDocument()
   })
+  it("features the AI Harness", () => {
+    render(<Projects />)
+    expect(screen.getByText("AI Harness")).toBeInTheDocument()
+  })
+  it("links the AI Harness to its live demo", () => {
+    render(<Projects />)
+    const links = screen.getAllByRole("link")
+    const hrefs = links.map((l) => l.getAttribute("href"))
+    expect(hrefs).toContain("https://ai-harness-mocha.vercel.app")
+  })
+  it("links the AI Harness source on GitHub", () => {
+    render(<Projects />)
+    const links = screen.getAllByRole("link")
+    const hrefs = links.map((l) => l.getAttribute("href"))
+    expect(hrefs).toContain("https://github.com/gasoto-dev/ai-harness")
+  })
+  it("still renders the three existing projects alongside the featured one", () => {
+    render(<Projects />)
+    expect(screen.getByText("CodeLens")).toBeInTheDocument()
+    expect(screen.getByText("Fish Tank Tools")).toBeInTheDocument()
+    expect(screen.getByText("The Crate")).toBeInTheDocument()
+  })
 })
 
 // Contact
